@@ -4,6 +4,9 @@ body,
 .view {
   height: 100%; }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 /* Full Page Carousel itself*/
 .carousel {
   height: 100%; }
@@ -109,3 +112,4 @@ body,
 .logo { 
   width: 60% !important;
 }
+
