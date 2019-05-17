@@ -1,0 +1,70 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } 
+}
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.title-stuff {
+  margin-right: 20px !important;
+}
+
+.btn:hover {
+  background-position: right center !important; /* change the direction of the change here */
+  color: white;
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right top, #ff6f91, #ff7689, #ff7d81, #ff847b, #ff8c76, #ff9372, #ff9a6e, #ffa16b, #ffaa67, #ffb363, #ffbd61, #ffc75f) !important;
+  color: white;
+  border-radius: 25px;
+}
+
+.md-form .prefix {
+  top: .5rem !important;
+}
+
+.imageBox {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+}
+
+#Success .modal-header {
+  background-image: linear-gradient(to right top, #ff6f91, #ff7689, #ff7d81, #ff847b, #ff8c76, #ff9372, #ff9a6e, #ffa16b, #ffaa67, #ffb363, #ffbd61, #ffc75f) !important;
+}
+
+#Success .fas {
+  color: #ff847b !important;
+}
+
+.deals {
+  background-image: linear-gradient(to right top, #ff6f91, #ff7689, #ff7d81, #ff847b, #ff8c76, #ff9372, #ff9a6e, #ffa16b, #ffaa67, #ffb363, #ffbd61, #ffc75f) !important;
+}
