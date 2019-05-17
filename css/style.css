@@ -68,3 +68,9 @@ body,
 .deals {
   background-image: linear-gradient(to right top, #ff6f91, #ff7689, #ff7d81, #ff847b, #ff8c76, #ff9372, #ff9a6e, #ffa16b, #ffaa67, #ffb363, #ffbd61, #ffc75f) !important;
 }
+
+/* --------------------------------------------------------------  new shit below */
+
+.mask {
+  background-color: lightgray
+}
