@@ -81,13 +81,6 @@ body {
 .signup {
   /* background-color: #5b5b5b; */
   background-color: #FBAB62;
-  padding-top: 7px !important;
-  padding-bottom: 7px !important;
-  border-radius: 25px;
-  font-family: 'Poppins', sans-serif;
-  text-transform: lowercase !important;
-  font-size: 14pt !important;
-  margin-left: 0;
 }
 
 /* .verticals {
