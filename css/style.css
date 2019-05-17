@@ -83,33 +83,86 @@ body {
   background-color: #FBAB62;
 }
 
-.verticals {
+/* .verticals {
   padding-top: 55px;
-}
+} */
 
 .crisis-response {
-  background-color: #F47F7F;
+  background-color: white;
   /* border-radius: 25px; */
-  color: white;
+  color: #F47F7F;
 }
 
 .mental-health {
-  background-color: #98DAF6;
+  background-color: white;
   /* border-radius: 25px; */
-  color: white;
+  color: #98DAF6;
 }
 
 .tba {
-  background-color: #FBAB62;
+  background-color: white;
   /* border-radius: 25px; */
-  color: white;
+  color: #FBAB62;
 }
 
 .card-text {
-  color: white !important;
+  /* color: white !important; */
+  font-weight: 300 !important;
+  padding: 20px;
 }
 
 .logo { 
   width: 60% !important;
+}
+
+.vertical-crisis {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.vertical-mental {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.vertical-tba {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+.card {
+  /* box-shadow: none !important; */
+  text-align: center !important;
+}
+
+.verticals-title {
+  text-align: right;
+  text-transform: lowercase;
+  font-weight: 700;
+  font-size: 48pt;
+  color: #5b5b5b;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hr-vertical {
+  width: 30%;
+  border-width: 1px;
+  margin-top: 0;
+  float: left;
+  margin-left: 20px;
 }
 
