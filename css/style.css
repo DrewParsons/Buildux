@@ -72,5 +72,40 @@ body,
 /* --------------------------------------------------------------  new shit below */
 
 .mask {
-  background-color: lightgray
+  background-color: #F4F4F4;
+}
+
+.signup {
+  /* background-color: #5b5b5b; */
+  background-color: #FBAB62;
+}
+
+.verticals {
+  padding-top: 55px;
+}
+
+.crisis-response {
+  background-color: #F47F7F;
+  /* border-radius: 25px; */
+  color: white;
+}
+
+.mental-health {
+  background-color: #98DAF6;
+  /* border-radius: 25px; */
+  color: white;
+}
+
+.tba {
+  background-color: #FBAB62;
+  /* border-radius: 25px; */
+  color: white;
+}
+
+.card-text {
+  color: white !important;
+}
+
+.logo { 
+  width: 60% !important;
 }
