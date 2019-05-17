@@ -5,6 +5,7 @@ body,
   height: 100%; }
 
 body {
+  margin-top: 30px;
   font-family: 'Open Sans', sans-serif;
 }
 /* Full Page Carousel itself*/
@@ -159,6 +160,7 @@ body {
 .verticals-title {
   text-align: right;
   text-transform: lowercase;
+  letter-spacing: 3px;
   font-weight: 700;
   font-size: 48pt;
   color: #5b5b5b;
@@ -173,3 +175,6 @@ body {
   margin-left: 20px;
 }
 
+.graphic{
+  margin-left:0px;
+}
