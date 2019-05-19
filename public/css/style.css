@@ -227,3 +227,11 @@ footer a{
 footer a:hover{
   color: #98DAF6;
 }
+
+#mlh-trust-badge{
+  margin-top: -8px;
+}
+
+#mlh-trust-badge:hover{
+  margin-top: 0px;
+}
