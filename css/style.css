@@ -27,7 +27,7 @@ body {
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #1C2331; } 
+    background-color: #1C2331; }
 }
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
@@ -82,44 +82,53 @@ body {
 .signup {
   /* background-color: #5b5b5b; */
   background-color: #FBAB62;
-  padding-top: 7px !important;
-  padding-bottom: 7px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
   border-radius: 25px;
   font-family: 'Poppins', sans-serif;
-  text-transform: lowercase !important;
+  text-transform: uppercase !important;
+  font-weight: 700;
+  letter-spacing: 1px;
   font-size: 14pt !important;
   margin-left: 0;
+  box-shadow: 0px 15px 23px -4px rgba(0,0,0,.18);
 }
 
-/* .verticals {
-  padding-top: 55px;
-} */
+.signup:hover{
+  box-shadow: 0px 20px 18px -9px rgba(0,0,0,.25);
+}
 
 .crisis-response {
   background-color: white;
   /* border-radius: 25px; */
   color: #F47F7F;
+  border-top: 10px solid #F47F7F;
 }
 
 .mental-health {
   background-color: white;
   /* border-radius: 25px; */
   color: #98DAF6;
+  border-top: 10px solid #98DAF6;
+
 }
 
 .tba {
   background-color: white;
   /* border-radius: 25px; */
   color: #FBAB62;
+  border-top: 10px solid #FBAB62;
+
 }
 
 .card-text {
   /* color: white !important; */
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   padding: 20px;
+  line-height: 185%;
 }
 
-.logo { 
+.logo {
   width: 60% !important;
 }
 
@@ -153,8 +162,9 @@ body {
 }
 
 .card {
-  /* box-shadow: none !important; */
+  box-shadow: 0px 90px 60px -40px rgba(0,0,0,.16) !important;
   text-align: center !important;
+  border-radius: 5px;
 }
 
 .verticals-title {
@@ -177,4 +187,43 @@ body {
 
 .graphic{
   margin-left:0px;
+}
+
+.icon{
+  width: 93px;
+  margin-top: 10px;
+}
+
+.icon-mental{
+  width: 63px;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.card-title{
+  text-align: left;
+  letter-spacing: 5px;
+  padding-top: 10px;
+}
+
+footer{
+  z-index: 999;
+  position: absolute;
+  display: block;
+  margin-top: -18px;
+  padding: 40px 20px;
+  background: #f4f4f4;
+  font-weight: 400;
+  text-align: center !important;
+  width: 100%;
+  color: #5b5b5b;
+}
+
+footer a{
+  color: #FBAB62;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: #98DAF6;
 }
